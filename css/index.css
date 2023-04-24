@@ -88,7 +88,7 @@
     left: 0;
     height: 320px;
     flex-direction: column;
-    background-image: url(./public/Hero\ Banner.png);
+    background-image: url(../public/Hero\ Banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -738,4 +738,45 @@
     color: var(--color-darkslategray-100);
     font-family: var(--font-unna);
   }
+
+  .btn{
+    display: inline-block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    background: var(--color-seagreen);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.4rem 2rem;    
+    color: #fff;
+  }
+  
+.logout{
+    display: none;
+  }
+
+#user-name{
+    display: inline;
+}
+
+#show-logout{
+    display: none;
+}
+
+
+#logout:hover #user-name{
+    display: none;
+}
+
+#logout:hover #show-logout{
+    display: inline;
+}
+
+.navigation-menu .menu-items a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
   
