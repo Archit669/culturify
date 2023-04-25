@@ -1,0 +1,17 @@
+.navigation-menu {
+    z-index: 100000;
+}
+
+.coming-soon{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    border: 2px solid black;
+    padding: 1rem 2rem;
+
+    background-color: var(--color-seagreen);
+    color: #fff;
+    cursor: pointer;
+    font-size: xx-large;
+}
